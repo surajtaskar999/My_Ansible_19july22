@@ -1,0 +1,22 @@
+---
+- mystudent: 
+  - name: anil
+    phoneno: 6656565
+    address:
+      doorno: 101
+      streetno: 01
+      pinno: 423101
+
+  - name: sunil
+    phoneno: 3434334
+    address: 
+       doorno: 101
+       streetno: 01
+       pinno: 423101
+
+  - name: balu
+    phoneno: 7474747
+    address: 
+        doorno: 101
+        streetno: 01
+        pinno: 423101 
