@@ -20,7 +20,7 @@
      apt:
        name: tree
        state: present  
-     when: myfirsttaskresult.stderr == "" 
+     when: myfirsttaskresult.stderr != "" 
      
 
 
