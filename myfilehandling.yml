@@ -11,3 +11,7 @@
     apt:
       name: apache2
       state: present
+  - name: copy dynamic file into ansible nodes
+    template:
+      src: myindex
+      dest: /var/www/html/index.html
