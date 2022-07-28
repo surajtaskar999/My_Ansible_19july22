@@ -13,5 +13,5 @@
       state: present
   - name: copy dynamic file into ansible nodes
     template:
-      src: myindex
+      src: myindex.j2
       dest: /var/www/html/index.html
