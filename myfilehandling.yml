@@ -16,7 +16,7 @@
     template:
       src: myindex.j2
       dest: /var/www/html/index.html
-    notify: start webserver  
+    notify: startwebserver  
 
   - name: download internet files into nodes
     get_url:
@@ -25,7 +25,7 @@
       force_basic_auth: yes
 
   handlers:
-  -  name: start webserver
+  -  name: startwebserver
      services:
        name: apache2
        state: started
