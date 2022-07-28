@@ -26,7 +26,7 @@
 
   handlers:
   -  name: startwebserver
-     services:
+     service:
        name: apache2
        state: started
     
