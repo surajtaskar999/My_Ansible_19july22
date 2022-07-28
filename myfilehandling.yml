@@ -6,4 +6,4 @@
   - name: copy static file into ansible nodes
     copy:
       src: mytestfile
-      des: /home/ubuntu/mystaticfile
+      dest: /home/ubuntu/mystaticfile
