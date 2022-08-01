@@ -1,6 +1,6 @@
 ---
 - name: grant tomcat ownership on tomcat
-  execute: sudo chown -R tomcat:tomcat /opt/tomcat/ 
+  command: sudo chown -R tomcat:tomcat /opt/tomcat/ 
 
 - name: change to execute permission on use level on bin folder
-  execute: sudo chmod -R u+x /opt/tomcat/bin
+  command: sudo chmod -R u+x /opt/tomcat/bin
