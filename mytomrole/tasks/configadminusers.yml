@@ -2,12 +2,12 @@
 - name: add tomcat admin user
   template: 
     src: templates/mytomuser.j2
-    dest: sudo nano /opt/tomcat/conf/tomcat-users.xml
+    dest: /opt/tomcat/conf/tomcat-users.xml
 
 - name: change context xml file
   template: 
     src: templates/mytomcontext.j2
-    dest: sudo nano /opt/tomcat/webapps/manager/META-INF/context.xml
+    dest: /opt/tomcat/webapps/manager/META-INF/context.xml
 
 - name: change host context xml file
   template:
